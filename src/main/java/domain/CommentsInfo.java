@@ -6,5 +6,6 @@ public class CommentsInfo {
     private String Author;
     private String AuthorAvatar;
     private String likesAmount;
+    // + getters/setters
 
 }
