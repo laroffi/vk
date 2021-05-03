@@ -1,8 +1,9 @@
 package domain;
 
 public class Post {
-    private int id;
-    private int postAuthor;
+    private int postId;
+    private int ownerId;
+    private int fromId;
     private String authorAvatar;
     private int date;
     private String text;
