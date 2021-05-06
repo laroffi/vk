@@ -3,21 +3,16 @@ package manager;
 import domain.Post;
 
 public class PostManager {
-    private int postId;
-    private int ownerId;
-    private String domain;
-    private String query;
-    private int count = 20;
-    private int offset;
+    private Post[] posts;
 
-    public Post[] search() {
-       Post[] posts;
+    public Post[] search (int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
+
         //some logic
         return null;
         }
 
-    public Post[] delete() {
-        Post[] posts;
+    public Post[] delete (int ownerId, int postId) {
+
         //some logic
         return null;
     }
