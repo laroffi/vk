@@ -1,11 +1,14 @@
 package domain;
 
 public class CommentsInfo {
-    private String Id;
-    private String Data;
-    private String Author;
+    private int count;
+    private boolean canPost;
+    private boolean groupCanPost;
     private String AuthorAvatar;
-    private String likesAmount;
+    private int likesAmount;
+    private boolean canClose;
+    private boolean canOpen;
+
     // + getters/setters
 
 }

@@ -1,9 +1,10 @@
 package domain;
 
 public class PostLikeLine {
-    private int likesAmount;
-    private int shareAmount;
-    private int viewersAmount;
+    private int count;
+    private boolean userLikes;
+    private boolean canlike;
+    private boolean canPublish;
     // + getters/setters
 
 }
