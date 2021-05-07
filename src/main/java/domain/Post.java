@@ -18,5 +18,15 @@ public class Post {
     private boolean markedAsAds;
     private boolean isFavorite;
     private int postponedId;
+
+    private CommentsInfo commentsInfo;
+    private Donut donut;
+    private Geo geo;
+    private PlaceHolder placeHolder;
+    private PostLikeLine postLikeLine;
+    private PostSource postSource;
+    private Repost repost;
+    private Views views;
+
      // + getters/setters
 }
